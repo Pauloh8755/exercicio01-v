@@ -17,20 +17,31 @@
 #header-container {
     display: flex;
     background-color: blueviolet;
+    justify-content: center;
+    align-items: center;
     flex-grow: 1;
 }
 #main-container {
     display: flex;
     background-color: rgb(43, 153, 226);
+    justify-content: center;
+    align-items: center;
     flex-grow: 3;
 }
 
 #footer-container {
     display: flex;
     background-color: brown;
+    justify-content: center;
+    align-items: center;
     flex-grow: 1;
 }
 
 .main-text {
-    width:;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 400px;
+    height: auto;
+    text-align: justify;
 }
