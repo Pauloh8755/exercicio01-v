@@ -3,9 +3,34 @@
     margin: 0;
 }
 
-#main-container {
+#container {
     display: flex;
     flex-direction: column;
 
+    flex-grow: 1;
+    height: 100vh;
+    width: 100wh;
+
     background-color: aqua;
+}
+
+#header-container {
+    display: flex;
+    background-color: blueviolet;
+    flex-grow: 1;
+}
+#main-container {
+    display: flex;
+    background-color: rgb(43, 153, 226);
+    flex-grow: 3;
+}
+
+#footer-container {
+    display: flex;
+    background-color: brown;
+    flex-grow: 1;
+}
+
+.main-text {
+    width:;
 }
